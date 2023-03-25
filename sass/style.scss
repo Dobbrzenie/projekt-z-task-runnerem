@@ -1,0 +1,88 @@
+/* Variables */
+$font-header: 'Delicious Handrawn', cursive;
+$font1: 'Alkatra', cursive;
+
+/* GLOBAL */
+
+body {
+    
+}
+
+/* HEADER */
+
+header {
+    background-image: url("/images/header.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 200%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+header h1 {
+    font-family: $font-header;
+    color: #f1c40f;
+    font-size: 60px;
+}
+header h1:hover {
+    color: #ffffff;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    text-decoration-line: none;
+    font-family: $font1;
+    font-size: 20px;
+    
+  }
+
+ul li a {
+    text-decoration: none;
+    color: #d6d5cf;
+  }
+
+ul li a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid;
+  }
+
+header .p1 {
+    padding-top: 200px;
+    font-family: $font1;
+    font-size: 60px;
+    line-height: 3.0;
+}
+
+header .p2 {
+    padding-top: -10px;
+    font-family: $font1;
+    font-size: 80px;
+    line-height: 3.0;
+    letter-spacing: 20px;
+}
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 767px) {
+    header {
+        height: 700px;
+    }
+    header h1 {
+        margin-top: 5px;
+        text-align: center;
+    }
+    header .p1 {
+        font-size: 20px;
+        margin-top: -200px;
+    }
+    header .p2 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+  
