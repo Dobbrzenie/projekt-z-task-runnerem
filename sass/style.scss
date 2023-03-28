@@ -11,7 +11,7 @@ body {
 /* HEADER */
 
 header {
-    background-image: url("/images/header.jpg");
+    background-image: url("/images/pexel.jpeg");
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100% 200%;
@@ -25,7 +25,7 @@ header h1 {
     font-size: 60px;
 }
 header h1:hover {
-    color: #ffffff;
+    color: #dd9595;
 }
 
 ul li {
@@ -39,7 +39,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #d6d5cf;
+    color: #e0d3ff;
   }
 
 ul li a:hover {
@@ -52,6 +52,7 @@ header .p1 {
     font-family: $font1;
     font-size: 60px;
     line-height: 3.0;
+    color: #e0d3ff;
 }
 
 header .p2 {
@@ -60,9 +61,27 @@ header .p2 {
     font-size: 80px;
     line-height: 3.0;
     letter-spacing: 20px;
+        color: #e0d3ff;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
 }
 
 /* OUR SERVICES */
+
+.serv {
+    font-family: $font1;
+    font-size: 60px;
+}
+
+.servp {
+    font-family: $font1;
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 24px;
+}
 
 .service i {
     text-align: center;
@@ -117,7 +136,7 @@ header .p2 {
     margin-left: 5px;
   }
   
-  .footer a {
+  .footer .fa-brands {
     text-align: center;
   }
 
@@ -141,5 +160,9 @@ header .p2 {
 
     .service {
         text-align: center;
+    }
+    .footer li {
+        display: inline-block;
+
     }
 }
